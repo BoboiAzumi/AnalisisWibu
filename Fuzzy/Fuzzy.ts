@@ -138,6 +138,8 @@ export function Fuzzy(anime: number, jpop: number, simp: number){
     const Sum_M = M.reduce((pv, c) => pv + c, 0)
     const Sum_L = L.reduce((pv, c) => pv + c, 0)
     const CenterOfArea = Sum_M / Sum_L;
+
+    // Print Out
     console.log("Total Anime : "+anime)
     console.log("Total JPOP Playlist : "+jpop)
     console.log("Total Waifu : "+simp)
